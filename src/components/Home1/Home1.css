@@ -1,0 +1,155 @@
+/* Your CSS file */
+
+.card-group {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px; 
+    padding: 20px 0;
+    width: 100%; 
+}
+
+.card-10{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0px 500px;
+
+}
+
+.navigation button {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.arrow-image{
+    width: 50px;
+}
+
+
+.container .card-group {
+    display: flex;
+    overflow-x: auto; 
+    gap: 20px; 
+    padding-bottom: 20px; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.container .card-group::-webkit-scrollbar {
+    display: none; 
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    overflow: hidden; 
+   
+   
+}
+
+.main-container{
+    
+    padding: 0px  0px 0px 90px;
+
+}
+
+.card-10 img{
+    height: 290px;
+    width: 290px;
+    border-radius: 20px;
+
+}
+.card-p11{
+    color: #000;
+
+/* Headline extra bold / h4 */
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+padding-left: 15px;
+margin-top: 6%;
+}
+.container-p{
+    color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.card-p12{
+    color: #000;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.card-box-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.dots-btn{
+    border-radius: 50px;
+background: #F2F2F2;
+padding: 6px;
+margin-bottom: 5px;
+
+}
+
+
+
+@media screen and (max-width: 1120px) {
+  
+
+    
+    .main-container {
+        padding: 0 20px; 
+    }
+
+    .navigation {
+        padding: 0 20px; 
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .main-container {
+        padding: 0 10px; 
+    }
+
+    .navigation {
+        padding: 0 10px; 
+    }
+    
+    .card-10 img {
+        height: 200px; 
+        width: 200px; 
+    }
+
+
+  
+}
