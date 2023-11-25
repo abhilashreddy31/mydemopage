@@ -10,7 +10,7 @@ import arrow2 from "../../asserts/arrow2.svg"
 function CardGroup() {
     const [startIndex, setStartIndex] = useState(0);
     const [currentPage, setCurrentPage] = useState(1);
-    const cardsPerPage = 8; // Number of cards displayed per page
+    const cardsPerPage = 6; // Number of cards displayed per page
     const containerRef = useRef(null);
 
     const cards = [
