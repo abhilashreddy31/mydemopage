@@ -647,7 +647,9 @@ padding-right: 30px;
 
 }
 
-
+.home-container-7{
+    margin-right: 5%;
+}
 
 @media screen and (max-width: 1150px) {
     .circle44,

@@ -49,8 +49,13 @@ font-weight: 500;
 line-height: normal;
     text-decoration: none;
 }
-
-button {
+.memu{
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+   
+}
+.courses-btn {
     color: #FFF;
 font-family: Inter;
 font-size: 16px;
